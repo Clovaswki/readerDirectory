@@ -52,7 +52,7 @@ const searchFile = {
             if (correctFile.length == 0) {
                 return console.log("O texto passado como parâmetro de busca não foi encontrado nos arquivos do diretório")
             }
-            console.log(...correctFile)
+            console.log(...this.correctFile)
         }, 50)
     }
 
